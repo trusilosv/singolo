@@ -1,4 +1,4 @@
-@import "/Fonts.css" screen;
+@import "./Fonts.css" screen;
 * {
     margin-left: auto;
     margin-right: auto;
