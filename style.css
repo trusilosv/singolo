@@ -1,0 +1,540 @@
+        @import "./Fonts.css" screen;
+        * {
+            margin-left: auto;
+            margin-right: auto;
+            width: 1020px;
+        }
+        
+        body {
+            margin: 0px;
+        }
+        
+        header {
+            background-color: #2d303a;
+            color: white;
+            font-family: LatoBold, sans-serif;
+        }
+        
+        .top {
+            height: 89px;
+        }
+        
+        header h1 {
+            font-size: 25px;
+            letter-spacing: -0.4px;
+            padding: 29px 0 0 40px;
+            margin: 0;
+        }
+        
+        .red {
+            color: #ff6666;
+        }
+        
+        header ul {
+            font-size: 11.4px;
+            position: absolute;
+            top: 31px;
+            left: 848px;
+        }
+        
+        header li {
+            text-align: center;
+            display: inline;
+            margin-right: 5px;
+            padding: 2.71px;
+            letter-spacing: 0.23px;
+        }
+        
+        li:hover {
+            color: #ff6666;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        
+        .line {
+            height: 6px;
+            background-color: #323746;
+        }
+        
+        .Gray {
+            color: #494e62;
+        }
+        
+        .Slider {
+            background-color: #f06c64;
+            height: 600px;
+        }
+        
+        .iphones {
+            position: absolute;
+            top: 89px;
+        }
+        
+        .quotes {
+            position: absolute;
+            width: 100px;
+            top: 339px;
+        }
+        
+        .right {
+            left: 1202px;
+        }
+        
+        .quotes:hover {
+            background: url(assets/images/left_arrow-b.png);
+            cursor: pointer;
+        }
+        
+        .right:hover {
+            background: url(assets/images/right\ _arrow-b.png);
+        }
+        
+        .line2 {
+            height: 6px;
+            background-color: #ea676b;
+            position: absolute;
+            top: 689px;
+        }
+        
+        .OurServices {
+            background-color: #f2f2f2;
+            color: #666d89;
+            height: 500px;
+        }
+        
+        .OurServices h2 {
+            font-size: 30px;
+            letter-spacing: 0.1px;
+            padding-top: 59px;
+            padding-left: 40px;
+            margin: 0px;
+            font-family: LatoBlack, sans-serif;
+        }
+        
+        .paragraph {
+            font-size: 18px;
+            letter-spacing: -0.05px;
+            margin: 18px 0 0 40px;
+            line-height: 30px;
+            font-family: LatoLight, sans-serif;
+            width: 939px;
+            text-align: justify;
+        }
+        
+        .paragraph_span {
+            word-spacing: -1.4px;
+        }
+        
+        .container_OurServices {
+            display: grid;
+            grid-template-columns: 60px 220px 60px 220px 60px 220px;
+            grid-template-rows: 85px 90px;
+            grid-column-gap: 20px;
+            grid-row-gap: 38px;
+            align-items: start;
+            margin-top: 43px;
+            margin-left: 40px;
+            overflow: hidden;
+        }
+        
+        .OurServices img {
+            width: 60px;
+            margin: 4px 0 0;
+        }
+        
+        .Our_services_table_h3 {
+            font-size: 18px;
+            font-family: LatoBlack, sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .container_OurServices p {
+            font-size: 12px;
+            font-family: LatoRegular, sans-serif;
+            line-height: 21px;
+            text-align: justify;
+            width: 220px;
+            margin: 8px 0 0;
+        }
+        
+        div.line3 {
+            position: absolute;
+            background-color: white;
+            height: 6px;
+            top: 1189px;
+        }
+        
+        .Portfolio {
+            height: 870px;
+            background-color: #2d303a;
+            color: #666d89;
+        }
+        
+        body {
+            padding: 0px;
+            margin-top: 0px;
+        }
+        
+        .Portfolio_h1 {
+            font-family: LatoBlack, sans-serif;
+            font-size: 30px;
+            letter-spacing: 0.25px;
+            margin: 0 40px 0;
+            padding: 59px 0px 0;
+        }
+        
+        .About_Us_p,
+        .Portfolio_p {
+            font-family: LatoLight, sans-serif;
+            font-size: 18px;
+            letter-spacing: px;
+            margin: 22px 40px 0;
+            word-spacing: -1.3px;
+            color: #767e9e;
+        }
+        
+        .buttons {
+            margin-top: 15px;
+            margin-left: 41px;
+        }
+        
+        button {
+            font-family: LatoRegular, sans-serif;
+            font-size: 12px;
+            width: auto;
+            background-color: #2d303a;
+            color: #767e9e;
+            border-radius: 5px;
+            border-color: #767e9e;
+            border-style: solid;
+            border-width: 1px;
+            padding: 2px 5.6px 3px;
+            margin: 0 6px 10px 0px;
+            word-spacing: -1.3px;
+            letter-spacing: 0.1px;
+        }
+        
+        .white {
+            color: white;
+            padding: 2px 6.5px 3px;
+            border-color: white;
+            word-spacing: 0px;
+            letter-spacing: 0px;
+            margin-right: 7px;
+        }
+        
+        button:hover {
+            border-color: tomato;
+            transition: 0.5s;
+            color: rgb(214, 90, 214);
+            cursor: pointer;
+        }
+        
+        .container {
+            display: grid;
+            grid-template-columns: 220px 220px 220px 220px;
+            grid-template-rows: 190px 190px 190px;
+            grid-column-gap: 20px;
+            grid-row-gap: 17px;
+            align-items: start;
+            margin-top: 9px;
+            margin-left: 40px;
+            width: 940px;
+            height: 610px;
+            overflow: hidden;
+        }
+        
+        .Portfolio_img {
+            width: 220px;
+        }
+        
+        .Portfolio_img:hover {
+            transition: 2s;
+            transform: rotate(1turn);
+            cursor: pointer;
+        }
+        
+        .line_s2 {
+            position: relative;
+            background-color: #323746;
+            height: 6px;
+            top: 58px;
+        }
+        
+        .About_Us {
+            height: 734px;
+            background-color: #f2f2f2;
+            color: #666d89;
+        }
+        
+        .inscription {
+            word-spacing: -1.4px;
+            letter-spacing: 0.1px;
+            margin-top: -1px;
+        }
+        
+        .About_Us p {
+            word-spacing: -0.3px;
+            letter-spacing: 0px;
+            line-height: 30px;
+            margin-top: 18px;
+            width: 940px;
+        }
+        
+        span {
+            word-spacing: -1.37px;
+            letter-spacing: 0px;
+        }
+        
+        .container_about_us {
+            display: grid;
+            grid-template-columns: 300px 302px 300px;
+            grid-column-gap: 19px;
+            align-items: start;
+            margin-top: 45px;
+            margin-left: 40px;
+            width: 940px;
+            height: 500px;
+            overflow: hidden;
+        }
+        
+        .about_us_img {
+            width: 300px;
+        }
+        
+        .container_about_us h3 {
+            font-family: LatoBlack, sans-serif;
+            font-size: 18px;
+            letter-spacing: 0px;
+            padding: 11px 0 0;
+            margin-top: 0px;
+            word-spacing: -1px;
+            white-space: pre-wrap;
+        }
+        
+        .container_about_us p {
+            font-family: LatoRegular, sans-serif;
+            font-size: 12px;
+            line-height: 21.56px;
+            margin: 0px;
+            margin-top: -10px;
+            word-spacing: -1px;
+            letter-spacing: -0.02px;
+            width: 300px;
+            text-align: justify;
+        }
+        
+        .item-3 h3 {
+            word-spacing: 0px;
+            letter-spacing: 0.1px;
+        }
+        
+        .item-2 p {
+            word-spacing: 0px;
+            letter-spacing: 0px;
+            width: 302px;
+        }
+        
+        .container_about_us span {
+            word-spacing: -0.35px;
+            letter-spacing: 0.009px;
+        }
+        
+        .social_network {
+            width: 32px;
+            margin-top: 24px;
+            margin-right: 4.5px;
+        }
+        
+        .social_network:hover {
+            transition: 1s;
+            background-color: tomato;
+            border-radius: 100%;
+            transform: scale(1.3);
+            cursor: pointer;
+        }
+        
+        .line2_s2 {
+            position: relative;
+            background-color: white;
+            height: 6px;
+            top: 10px;
+        }
+        
+        .Get_a_Quote_h1 {
+            font-family: LatoBlack, sans-serif;
+            font-size: 30px;
+            margin: 0 40px 0;
+            word-spacing: -0.9px;
+            padding: 59px 0 0;
+            color: #f0d8d9;
+        }
+        
+        .Get_a_Quote_p {
+            Font-family: LatoLight, sans-serif;
+            font-size: 18px;
+            line-height: 30px;
+            margin: 18px 40px 0;
+            word-spacing: -0.3px;
+            width: 940px;
+            color: #f0d8d9;
+        }
+        
+        .Get_a_Quote {
+            background-color: #f06c64;
+            height: 654px;
+        }
+        
+        .Get_a_Quote_p spen {
+            word-spacing: -1.45px;
+        }
+        
+        .Contact_Information {
+            display: flex;
+            justify-content: start;
+        }
+        
+        .form_get_a_guote {
+            margin-top: 44px;
+            margin-left: 40px;
+        }
+        
+        .pole {
+            width: 619px;
+            background-color: #d6564f;
+            border-radius: 5px;
+            border-style: none;
+            margin-bottom: 16px;
+            height: 38px;
+            padding: 0px;
+            resize: none;
+            vertical-align: middle;
+        }
+        
+        .button_send {
+            position: relative;
+            top: 70px;
+            color: #fff;
+            width: 150px;
+            height: 50px;
+            font-size: 15px;
+            background-color: #d6564f;
+        }
+        
+        .button_send:hover {
+            background-color: #f06c64;
+            border-radius: 50%;
+            color: white;
+            border-width: 10px;
+            border-color: white;
+        }
+        
+         ::placeholder {
+            line-height: 36px;
+            Font-family: LatoRegular, sans-serif;
+            font-size: 12px;
+            color: #f48c8f;
+            padding-left: 15px;
+            margin-top: 0px;
+        }
+        
+        #textarea_gaq {
+            height: 202px;
+        }
+        
+        .form_get_a_guote {
+            width: 600px;
+        }
+        
+        .txtbox {
+            height: 250px;
+        }
+        
+        .txtbox>* {
+            color: #f0d8d9;
+            width: 300px;
+        }
+        
+        .txtbox p {
+            font-family: LatoRegular, sans-serif;
+            font-size: 12px;
+            letter-spacing: -0.1px;
+            margin-top: 7px;
+            line-height: 22px;
+            text-align: justify;
+        }
+        
+        .txtbox h2 {
+            font-family: LatoBlack, sans-serif;
+            font-size: 18px;
+            letter-spacing: 0.1px;
+            margin-top: 42px;
+            margin-bottom: 0px;
+        }
+        
+        .txtbox_list_ul {
+            padding-top: 8px;
+            padding-left: 47px;
+        }
+        
+        .txtbox_list {
+            font-family: LatoRegular, sans-serif;
+            font-size: 12px;
+            list-style-type: none;
+            width: 300px;
+            padding-bottom: 6.2px;
+            letter-spacing: -0.2px;
+        }
+        
+        .img_txtbox {
+            position: relative;
+            top: -78px;
+            left: 40px;
+            width: 13px;
+            padding-right: 9px;
+        }
+        
+        .line_s3 {
+            position: relative;
+            top: 51px;
+            height: 5px;
+            background-color: #ea676b;
+        }
+        
+        footer {
+            display: flex;
+            justify-content: start;
+            height: 76px;
+            align-items: center;
+            background-color: #2d303a;
+        }
+        
+        footer p {
+            font-size: 12px;
+            font-family: LatoRegular, sans-serif;
+            color: #666d89;
+            margin: 42px;
+            padding-bottom: 2px;
+            letter-spacing: -0.1px;
+            word-spacing: -1px;
+        }
+        
+        .our_social_networks {
+            width: 263px;
+        }
+        
+        .our_social_networks_img {
+            width: 32px;
+            align-content: center;
+            margin-right: 4px;
+            margin-top: 3px;
+        }
+        
+        .our_social_networks_img:hover {
+            transition: 1s;
+            background-color: tomato;
+            border-radius: 100%;
+            transform: scale(1.3);
+            cursor: pointer;
+        }
