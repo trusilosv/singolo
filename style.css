@@ -156,6 +156,8 @@
             text-align: justify;
             width: 220px;
             margin: 8px 0 0;
+            height: 60px;
+            overflow: hidden;
         }
         
         div.line3 {
