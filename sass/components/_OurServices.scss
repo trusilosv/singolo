@@ -1,0 +1,39 @@
+.ourServices {
+    background-color: $color-background-ourServices;
+}
+
+.ourServices img {
+    padding-top: 6px;
+}
+
+.ourServices__text {
+    padding-top: 3px;
+}
+
+.ourServices__container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 95px 95px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+    align-items: start;
+    margin: 0;
+    overflow: hidden;
+    padding-top: 41px;
+    padding-bottom: 60px;
+}
+
+.ourServices__item {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+}
+
+.ourServices__containerText {
+    font-size: 12px;
+    line-height: 22px;
+    text-align: justify;
+    padding-left: 19px;
+    padding-top: 3px;
+    font-family: LatoRegular, sans-serif;
+}

@@ -1,0 +1,44 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: LatoLight, sans-serif;
+    font-size: 1.6rem;
+    max-width: $content-width;
+    margin: auto;
+    color: $color-text;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+h1 {
+    font-family: LatoBold, sans-serif;
+    font-size: 2.5rem;
+    line-height: 3.0rem;
+    letter-spacing: -0.03em;
+    color: white;
+}
+
+h2 {
+    font-family: LatoBlack, sans-serif;
+    font-size: 3.0rem;
+    line-height: 3.6rem;
+    padding: 60px 0 14px 0;
+    color: $color-heading;
+    margin: 0;
+}
+
+h3 {
+    font-family: LatoBlack, sans-serif;
+    font-size: 1.8rem;
+    line-height: 3.0rem;
+    margin: 0;
+    padding-left: 19px;
+    color: $color-heading;
+}
+
+.text {
+    margin: 0;
+    color: $color-text;
+}
