@@ -1,0 +1,20 @@
+.navigation {
+    display: flex;
+    margin: 0px;
+    margin-top: 11px;
+}
+
+.navigation__link {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: white;
+    padding: 0 0.47rem 0;
+    cursor: pointer;
+    margin: 0px;
+}
+
+.active {
+    color: $color-background;
+}

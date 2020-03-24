@@ -74,22 +74,6 @@ function slider_rightMovement() {
     }
 
 }
-
-
-
-/*
-const menu = document.getElementById('header_menu');
-menu.addEventListener('click', (event) => {
-    menu.querySelectorAll('a').forEach(el => el.classList.remove('header_active'));
-    event.target.classList.add('header_active');
-});
-
-
-
-
-
-
-*/
 const buttons = document.getElementById('portfolio__buttons');
 buttons.addEventListener('click', (e) => {
     if (e.target.type == 'submit') {
@@ -100,7 +84,6 @@ buttons.addEventListener('click', (e) => {
 });
 const portfolio_img_border = document.getElementById('portfilio__container');
 portfolio_img_border.addEventListener('click', (e) => {
-    console.log(e.target.tagName);
     if (e.target.tagName === 'IMG') {
         portfolio_img_border.querySelectorAll('.portfolio__item').forEach(el => el.classList.remove('portfolio__img_border'));
         e.target.parentElement.classList.add('portfolio__img_border');
@@ -127,3 +110,49 @@ function picture_replacement(id_element) {
 }
 
 */
+const containerList = document.querySelectorAll('.anchor');
+const links = document.querySelectorAll('#navigation a')
+document.addEventListener('scroll', movementscroll);
+
+function movementscroll(event) {
+    const scroll__vertical = window.scrollY;
+    containerList.forEach((element) => {
+        if (element.offsetTop - 89 <= scroll__vertical && (element.offsetTop + element.offsetHeight - 89) > scroll__vertical && !element.classList.contains('active')) {
+            links.forEach((a) => {
+                a.classList.remove('active');
+                if (element.getAttribute('id') === a.getAttribute('href').substring(1))
+                    a.classList.add('active');
+            });
+
+        }
+
+    });
+}
+const menu = document.getElementById('navigation');
+menu.addEventListener('click', (event) => {
+    menu.querySelectorAll('a').forEach(el => el.classList.remove('active'));
+    event.target.classList.add('active');
+});
+
+
+
+const message = document.getElementById('messageBlock__message');
+
+function form__send() {
+    document.getElementById('messageBlock').classList.remove('messageBlock__none');
+    let message__text = '';
+    const subject = document.getElementById('subject').value;
+    const detail = document.getElementById('detail').value;
+    if (subject === '') message__text += 'No subject\n';
+    else message__text += 'Subject : ' + subject.toString() + '\n';
+    if (detail === '') message__text += 'No description';
+    else message__text += 'Description: ' + detail.toString();
+    document.getElementById('messageBlock__message').textContent = message__text;
+
+}
+
+function send_close() {
+    document.getElementById('getAQuote__form').reset();
+    document.getElementById('messageBlock').classList.add('messageBlock__none');
+
+}

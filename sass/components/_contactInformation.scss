@@ -1,0 +1,47 @@
+    .contactInformation {
+        width: 31.92%;
+    }
+    
+    .contactInformation__heading {
+        color: $color-text-second;
+        padding: 0;
+    }
+    
+    .contactInformation__text {
+        color: $color-text-second;
+        font-size: 1.2rem;
+        line-height: 2.2rem;
+        text-align: justify;
+        padding-top: 4px;
+        font-family: LatoRegular, sans-serif;
+    }
+    
+    .contactInformation__contacts {
+        display: flex;
+        padding-top: 25px;
+        align-items: flex-start;
+    }
+    
+    .contactInformation__contactList {
+        list-style: none;
+        margin: 0;
+        padding-left: 7.5px;
+    }
+    
+    .contactInformation__contactElement {
+        line-height: 1px;
+        padding: 0 0 9px 3px;
+    }
+    
+    .contactInformation__contact {
+        color: $color-text-second;
+        font-family: LatoRegular, sans-serif;
+        font-size: 1.2rem;
+        line-height: 1.3rem;
+        text-decoration: none;
+        margin: 0;
+    }
+    
+    .contactInformation__icons {
+        padding: 1px 0 1px;
+    }

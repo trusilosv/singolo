@@ -1,5 +1,6 @@
 .ourServices {
-    background-color: $color-background-ourServices;
+    background-color: $color-background-second;
+    scroll-margin-top: 89px;
 }
 
 .ourServices img {
@@ -30,8 +31,8 @@
 }
 
 .ourServices__containerText {
-    font-size: 12px;
-    line-height: 22px;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
     text-align: justify;
     padding-left: 19px;
     padding-top: 3px;

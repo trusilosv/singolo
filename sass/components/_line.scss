@@ -1,12 +1,22 @@
-.line {
-    height: 6px;
-    color: white;
-}
-
-.line_color_gray {
-    background-color: $color-line-blue;
-}
-
-.line_color_red {
-    background-color: $color-line-red;
-}
+    .line {
+        height: 6px;
+        background-color: white;
+    }
+    
+    .line_color_gray {
+        background-color: $color-line-blue;
+        scroll-margin-top: 89px;
+    }
+    
+    .line_color_red {
+        background-color: $color-line-red;
+    }
+    
+    .line_color_blue {
+        background-color: $color-line-blue;
+    }
+    
+    .line_narrow {
+        height: 5px;
+        background-color: white;
+    }

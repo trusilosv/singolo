@@ -1,0 +1,40 @@
+.messageBlock {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #0008;
+}
+
+.message {
+    position: relative;
+    background-color: $color-base-blue;
+    width: 50%;
+    top: 25%;
+    left: 25%;
+    border-radius: 20px;
+    padding: 10px;
+    max-height: 70%;
+}
+
+.message__text {
+    position: relative;
+    width: 100%;
+    max-height: 70%;
+}
+
+.messageBlock__none {
+    display: none;
+}
+
+.messageBlock__textarea {
+    resize: none;
+    border-style: none;
+    background-color: $color-form;
+    color: wheat;
+    border-radius: 10px;
+    width: 100%;
+    padding-left: 10px;
+    height: 200px;
+}

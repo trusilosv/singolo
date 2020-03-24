@@ -1,0 +1,54 @@
+.getAQuote {
+    background-color: $color-background;
+    scroll-margin-top: 89px;
+}
+
+.getAQuote__heading {
+    color: $color-text-second;
+}
+
+.getAQuote__text {
+    padding-top: 3px;
+    color: $color-text-second;
+}
+
+.getAQuote__contactInformation {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px 0 58px;
+}
+
+.getAQuote__form {
+    width: 66%;
+    padding-top: 6px;
+}
+
+.getAQuote__pole {
+    height: 38px;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: $color-form;
+    border-radius: 5px;
+    border-style: none;
+    padding-left: 14px;
+    resize: none;
+    color: wheat;
+}
+
+.getAQuote__pole_big {
+    height: 159px;
+    padding-top: 0px;
+    margin: 0;
+}
+
+.getAQuote__button {
+    background-color: $color-background-input;
+    color: $color-input;
+    border-radius: 5px;
+    border-style: none;
+    width: 136px;
+    height: 38px;
+    font-family: LatoBlack, sans-serif;
+    font-size: 1.4rem;
+    margin-top: 6px;
+}

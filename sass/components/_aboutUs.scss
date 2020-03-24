@@ -1,0 +1,33 @@
+.aboutUs {
+    background-color: $color-background-second;
+    scroll-margin-top: 89px;
+}
+
+.aboutUs_text {
+    padding-top: 3px;
+}
+
+.aboutUs__container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-column-gap: 20px;
+    align-items: start;
+    overflow: hidden;
+    padding: 44px 0 60px;
+}
+
+.aboutUs__name {
+    padding: 3px 0 0;
+}
+
+.aboutUs__text {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    text-align: justify;
+    padding-top: 4px;
+    font-family: LatoRegular, sans-serif;
+}
+
+.aboutUs__picturesOfSocialNetworks {
+    padding-top: 22px;
+}
