@@ -10,21 +10,25 @@
 
 <body>
     <header class="header">
-        <div class="heder__wrapper">
+        <div class="header__wrapper">
+            <div id="header__burgerMenu">
+                <img src="assets/images/Burger-menu-icon.svg" alt="burger-menu">
+            </div>
             <h1 class="logo">SINGOLO<span class="logo logo_color_red">*</span></h1>
             <div class="header__navigation">
                 <ul class="navigation" id="navigation">
                     <li class="navigation__link"><a class="navigation__link active " href="#home">HOME</a></li>
-                    <li class="navigation__link" class="navigation__point_color_gray">&middot;</li>
+                    <li class="navigation__link navigation__point_color_gray">&middot;</li>
                     <li class="navigation__link"><a class="navigation__link" href="#ourServices">SERVICES</a></li>
-                    <li class="navigation__link" class="navigation__point_color_gray">&middot;</li>
+                    <li class="navigation__link navigation__point_color_gray">&middot;</li>
                     <li class="navigation__link"><a class="navigation__link" href="#portfolio">PORTFOLIO</a></li>
-                    <li class="navigation__link" class="navigation__point_color_gray">&middot;</li>
+                    <li class="navigation__link navigation__point_color_gray">&middot;</li>
                     <li class="navigation__link"><a class="navigation__link" href="#aboutUs">ABOUT</a></li>
-                    <li class="navigation__link" class="navigation__point_color_gray">&middot;</li>
+                    <li class="navigation__link navigation__point_color_gray">&middot;</li>
                     <li class="navigation__link"><a class="navigation__link" href="#contact">CONTACT</a></li>
                 </ul>
             </div>
+
         </div>
 
 
@@ -46,7 +50,7 @@
     <div class="line line_color_red"></div>
     <div class="ourServices anchor" id="ourServices">
         <div class="wrapper">
-            <h2>Our Services</h2>
+            <h2 class="ourServices__heading">Our Services</h2>
             <p class='text ourServices__text'>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor <span class="paragraph_span">ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span></p>
             <div class="ourServices__container">
                 <div class="ourServices__item">
@@ -98,7 +102,7 @@
 
     <div class="portfolio anchor" id="portfolio">
         <div class="wrapper">
-            <h2>Portfolio</h2>
+            <h2 class="portfolio__heading">Portfolio</h2>
             <p class="text portfolio__text"> Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</p>
             <div class="portfolio__buttons" id="portfolio__buttons">
                 <button class="portfolio__button portfolio__button_active">All</button>
@@ -107,42 +111,42 @@
                 <button class="portfolio__button">Artwork</button>
             </div>
         </div>
-        <div class="portfolio__container" id="portfilio__container">
-            <div class="portfolio__item"> <img src="assets/images/1.jpg">
-                <p class="portfolio__img_position"></p>
+        <div class="portfolio__container" id="portfolio__container">
+            <div class="portfolio__item">
+                <img src="assets/images/1.jpg" alt="portfolio__img1">
             </div>
-            <div class="portfolio__item"> <img src="assets/images/2.jpg">
-                <p class="portfolio__img_position"></p>
+            <div class="portfolio__item">
+                <img src="assets/images/2.jpg" alt="portfolio__img2">
             </div>
-            <div class="portfolio__item"> <img src="assets/images/3.jpg">
-                <p class="portfolio__img_position"></p>
+            <div class="portfolio__item">
+                <img src="assets/images/3.jpg" alt="portfolio__img3">
             </div>
-            <div class="portfolio__item"> <img src="assets/images/4.jpg">
-                <p class="portfolio__img_position"></p>
+            <div class="portfolio__item">
+                <img src="assets/images/4.jpg" alt="portfolio__img4">
             </div>
-            <div class="portfolio__item"> <img src="assets/images/5.jpg">
-                <p class="portfolio__img_position"></p>
+            <div class="portfolio__item">
+                <img src="assets/images/5.jpg" alt="portfolio__img5">
             </div>
-            <div class="portfolio__item"> <img src="assets/images/6.jpg">
-                <p class="portfolio__img_position"></p>
+            <div class="portfolio__item">
+                <img src="assets/images/6.jpg" alt="portfolio__img6">
             </div>
-            <div class="portfolio__item"> <img src="assets/images/7.jpg">
-                <p class="portfolio__img_position"></p>
+            <div class="portfolio__item">
+                <img src="assets/images/7.jpg" alt="portfolio__img7">
             </div>
-            <div class="portfolio__item"> <img src="assets/images/8.jpg">
-                <p class="portfolio__img_position"></p>
+            <div class="portfolio__item">
+                <img src="assets/images/8.jpg" alt="portfolio__img8">
             </div>
-            <div class="portfolio__item"> <img src="assets/images/9.jpg">
-                <p class="portfolio__img_position"></p>
+            <div class="portfolio__item">
+                <img src="assets/images/9.jpg" alt="portfolio__img9">
             </div>
-            <div class="portfolio__item"> <img src="assets/images/10.jpg">
-                <p class="portfolio__img_position"></p>
+            <div class="portfolio__item">
+                <img src="assets/images/10.jpg" alt="portfolio__img10">
             </div>
-            <div class="portfolio__item"> <img src="assets/images/11.jpg">
-                <p class="portfolio__img_position"></p>
+            <div class="portfolio__item">
+                <img src="assets/images/11.jpg" alt="portfolio__img11">
             </div>
-            <div class="portfolio__item"> <img src="assets/images/12.jpg">
-                <p class="portfolio__img_position"></p>
+            <div class="portfolio__item">
+                <img src="assets/images/12.jpg" alt="portfolio__img12">
             </div>
 
         </div>
@@ -152,34 +156,34 @@
 
     <div class="aboutUs anchor" id="aboutUs">
         <div class="wrapper">
-            <h2>About Us</h2>
+            <h2 class="aboutUs__heading">About Us</h2>
             <p class="text aboutUs_text">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor
                 <span>ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</span></p>
             <div class="aboutUs__container">
-                <div><img src="assets/images/Adam Jensen.jpg">
+                <div class="aboutUs_item"><img class="aboutUs__img" src="assets/images/Adam Jensen.jpg">
                     <h3 class="aboutUs__name">Adam Jensen</h3>
                     <p class="text aboutUs__text">Quisque luctus, quam eget molestie commodo, lacus purus <span>cursus purus, nec rutrum tellus dolor id lorem.</span></p>
-                    <div class="picturesOfSocialNetworks aboutUs__picturesOfSocialNetworks">
+                    <div class="picturesOfSocialNetworks aboutUs__picturesOfSocialNetworks ">
                         <img class="picturesOfSocialNetwork" src="assets/images/ico-facebook.svg">
                         <img class="picturesOfSocialNetwork" src="assets/images/ico-google-plus.svg">
                         <img class="picturesOfSocialNetwork" src="assets/images/ico-twitter.svg">
                         <img class="picturesOfSocialNetwork" src="assets/images/ico-linkedin.svg">
                     </div>
                 </div>
-                <div><img src="assets/images/Desmond Miles.jpg">
+                <div class="aboutUs_item"><img class="aboutUs__img" src="assets/images/Desmond Miles.jpg">
                     <h3 class="aboutUs__name">Desmond Miles</h3>
                     <p class="text aboutUs__text">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
-                    <div class="picturesOfSocialNetworks aboutUs__picturesOfSocialNetworks">
+                    <div class="picturesOfSocialNetworks aboutUs__picturesOfSocialNetworks ">
                         <img class="picturesOfSocialNetwork" src="assets/images/ico-facebook.svg">
                         <img class="picturesOfSocialNetwork" src="assets/images/ico-google-plus.svg">
                         <img class="picturesOfSocialNetwork" src="assets/images/ico-twitter.svg">
                         <img class="picturesOfSocialNetwork" src="assets/images/ico-linkedin.svg">
                     </div>
                 </div>
-                <div><img src="assets/images/Scolara Visari.jpg">
+                <div class="aboutUs_item"><img class="aboutUs__img" src="assets/images/Scolara Visari.jpg">
                     <h3 class="aboutUs__name">Scolara Visari</h3>
                     <p class="text aboutUs__text">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet <span>turpis, et consequat felis. Quisque condimentum.</span></p>
-                    <div class="picturesOfSocialNetworks aboutUs__picturesOfSocialNetworks">
+                    <div class="picturesOfSocialNetworks aboutUs__picturesOfSocialNetworks ">
                         <img class="picturesOfSocialNetwork" src="assets/images/ico-facebook.svg">
                         <img class="picturesOfSocialNetwork" src="assets/images/ico-google-plus.svg">
                         <img class="picturesOfSocialNetwork" src="assets/images/ico-twitter.svg">
@@ -198,11 +202,11 @@
             </p>
             <div class="getAQuote__contactInformation" id="getAQuote__contactInformation_anchor">
 
-                <form class="getAQuote__form" id="getAQuote__form" onsubmit="form__send();return false;">
+                <form class="getAQuote__form" id="getAQuote__form" onsubmit="form__send();return false; ">
                     <input class="getAQuote__pole" type="text" name="name" maxlength="20" required placeholder="Name (required)">
                     <input class="getAQuote__pole" type="email" name="email" maxlength="20" required placeholder="Email (required)">
                     <input class="getAQuote__pole" id="subject" type="text" name="subject" maxlength="20" placeholder="Subject">
-                    <textarea class="getAQuote__pole getAQuote__pole_big " id="detail" name="detail" maxlength="200" placeholder="Describe your project in detail..."></textarea>
+                    <textarea class="getAQuote__pole getAQuote__pole_big" id="detail" name="detail" maxlength="200" placeholder="Describe your project in detail..."></textarea>
                     <button class="getAQuote__button" type="input">SEND</button>
 
                 </form>
@@ -211,10 +215,10 @@
                     <h3 class="contactInformation__heading">Contact Information</h3>
                     <p class="text contactInformation__text">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. </p>
                     <div class="contactInformation__contacts">
-                        <img class="contactInformation__icons" src="assets/images/marker.png">
+                        <img class="contactInformation__icons" src="assets/images/marker.png ">
                         <ul class="contactInformation__contactList">
                             <li class="contactInformation__contactElement">
-                                <P class="contactInformation__contact">Elm St. 14/05 Lost City</P>
+                                <P class="contactInformation__contact ">Elm St. 14/05 Lost City</P>
                             </li>
                             <li class="contactInformation__contactElement">
                                 <a class="contactInformation__contact" href="tel:+375111111111">  03528 331 86 35</a></li>
@@ -232,11 +236,11 @@
 
     <footer class="footer">
         <p class=" footer__text">© Copyright 2013 </p>
-        <div class="fotpicturesOfSocialNetworks  footer__fotpicturesOfSocialNetworks">
-            <img class="picturesOfSocialNetwork " src="assets/images/ico-facebook.svg ">
-            <img class="picturesOfSocialNetwork " src="assets/images/ico-google-plus.svg ">
-            <img class="picturesOfSocialNetwork " src="assets/images/ico-twitter.svg ">
-            <img class="picturesOfSocialNetwork " src="assets/images/ico-linkedin.svg ">
+        <div class="fotpicturesOfSocialNetworks footer__fotpicturesOfSocialNetworks">
+            <img class="picturesOfSocialNetwork " src="assets/images/ico-facebook.svg">
+            <img class="picturesOfSocialNetwork " src="assets/images/ico-google-plus.svg">
+            <img class="picturesOfSocialNetwork " src="assets/images/ico-twitter.svg">
+            <img class="picturesOfSocialNetwork " src="assets/images/ico-linkedin.svg">
         </div>
     </footer>
     <div class="messageBlock messageBlock__none" id="messageBlock">

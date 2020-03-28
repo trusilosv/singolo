@@ -9,11 +9,12 @@
 
 .aboutUs__container {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-column-gap: 20px;
+    grid-template-columns: 31.91% 31.91% 31.91%;
+    grid-column-gap: 2.13%;
     align-items: start;
     overflow: hidden;
     padding: 44px 0 60px;
+    width: 100%;
 }
 
 .aboutUs__name {
@@ -30,4 +31,41 @@
 
 .aboutUs__picturesOfSocialNetworks {
     padding-top: 22px;
+}
+
+.aboutUs_item {
+    width: 100%;
+}
+
+.aboutUs__img {
+    width: 100%;
+}
+
+@media(max-width: $content-responsive-width) {
+    .aboutUs__picturesOfSocialNetworks {
+        padding-top: 5px;
+    }
+    .aboutUs__heading {
+        padding-top: 50px;
+    }
+}
+
+@media(max-width: $tablet-responsive-width) {
+    .aboutUs__container {
+        display: block;
+        padding: 0 0 40px;
+    }
+    .aboutUs__picturesOfSocialNetworks {
+        padding-top: 9px;
+    }
+    .aboutUs_item {
+        width: 100%;
+        padding-top: 29px;
+    }
+    .aboutUs {
+        scroll-margin-top: calc(58px - 100vh);
+    }
+    .aboutUs__heading {
+        padding-top: 33px;
+    }
 }

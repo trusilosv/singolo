@@ -18,3 +18,32 @@
 .active {
     color: $color-background;
 }
+
+@media(max-width: $tablet-responsive-width) {
+    .navigation {
+        display: none;
+    }
+    .navigation {
+        flex-direction: column;
+        position: absolute;
+        top: 203px;
+        left: 31px;
+    }
+    .navigation__link {
+        font-size: 24px;
+        line-height: 29px;
+        font-family: LatoBold, sans-serif;
+    }
+    .navigation__point_color_gray {
+        color: $color-base-blue;
+    }
+    .navigation__flex {
+        display: flex;
+    }
+}
+
+@media(min-width:768px) {
+    #navigation {
+        display: flex;
+    }
+}

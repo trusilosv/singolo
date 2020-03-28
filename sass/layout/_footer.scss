@@ -18,3 +18,12 @@
     padding-top: 7px;
     align-items: center;
 }
+
+@media(max-width: $tablet-responsive-width) {
+    .footer {
+        justify-content: center;
+    }
+    .footer__text {
+        display: none;
+    }
+}

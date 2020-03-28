@@ -19,12 +19,14 @@
 }
 
 .getAQuote__form {
-    width: 66%;
-    padding-top: 6px;
+    box-sizing: border-box;
+    width: 64.5%;
+    padding-top: 5px;
 }
 
 .getAQuote__pole {
-    height: 38px;
+    box-sizing: border-box;
+    height: 36px;
     width: 100%;
     margin-bottom: 16px;
     background-color: $color-form;
@@ -36,9 +38,10 @@
 }
 
 .getAQuote__pole_big {
-    height: 159px;
+    height: 157px;
     padding-top: 0px;
     margin: 0;
+    width: 99.6%;
 }
 
 .getAQuote__button {
@@ -51,4 +54,26 @@
     font-family: LatoBlack, sans-serif;
     font-size: 1.4rem;
     margin-top: 6px;
+    .getAQuote__heading {
+        padding-top: 53px;
+    }
+}
+
+@media(max-width: $tablet-responsive-width) {
+    .getAQuote__contactInformation {
+        display: block;
+        padding-bottom: 40px;
+    }
+    .getAQuote__form {
+        width: 100%;
+    }
+    .getAQuote__button {
+        width: 100%;
+    }
+    .getAQuote {
+        scroll-margin-top: calc(58px - 50vh);
+    }
+    .getAQuote__heading {
+        padding-top: 43px;
+    }
 }

@@ -4,20 +4,8 @@
     "description": "",
     "main": "script.js",
     "scripts": {
-        "style": "sass --watch sass/style.scss style.css",
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/trusilosv/singolo.git"
-    },
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/trusilosv/singolo/issues"
-    },
-    "homepage": "https://github.com/trusilosv/singolo#readme",
-    "dependencies": {
-        "normalize.scss": "^0.1.0"
+        "style": "sass --watch sass/style.scss style.css"
+
     }
+
 }

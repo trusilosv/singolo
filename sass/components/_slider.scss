@@ -19,7 +19,7 @@
     
     .slider__button {
         position: absolute;
-        width: calc((100%/1020)*42);
+        width: calc((100% / 1020) * 42);
         cursor: pointer;
     }
     
@@ -64,4 +64,10 @@
     .slider__button_screen_horizontal {
         top: 44.4%;
         left: 42.5%;
+    }
+    
+    @media(max-width: 400px) {
+        .slider__arrow {
+            width: 4%;
+        }
     }

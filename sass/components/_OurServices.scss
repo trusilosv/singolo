@@ -40,14 +40,29 @@
     font-family: LatoRegular, sans-serif;
 }
 
-@media(max-width: 1020px) {
+@media(max-width:$content-responsive-width) {
     .ourServices__container {
         grid-template-areas: "a a" "a a" "a a";
+        justify-items: center;
+    }
+    .ourServices__heading {
+        padding-top: 34px;
     }
 }
 
-@media(max-width: 768px) {
+@media(max-width: $tablet-responsive-width) {
     .ourServices__container {
-        display: block;
+        grid-template-areas: "a " "a " "a " "a " "a " "a ";
+        justify-items: center;
+        padding: 23px 0 15px;
+    }
+    .ourServices__item {
+        width: 100%;
+    }
+    .ourServices {
+        scroll-margin-top: calc(58px - 100vh);
+    }
+    .ourServices__heading {
+        padding-top: 21px;
     }
 }

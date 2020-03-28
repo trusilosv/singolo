@@ -29,6 +29,7 @@
 }
 
 .messageBlock__textarea {
+    box-sizing: border-box;
     resize: none;
     border-style: none;
     background-color: $color-form;

@@ -45,3 +45,10 @@
     .contactInformation__icons {
         padding: 1px 0 1px;
     }
+    
+    @media(max-width: $tablet-responsive-width) {
+        .contactInformation {
+            width: 100%;
+            padding-top: 30px;
+        }
+    }
