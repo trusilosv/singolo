@@ -516,7 +516,7 @@ h3 {
     box-sizing: border-box;
     width: 278px;
     height: 100vh;
-    position: fixed;
+    position: sticky;
     box-shadow: 0px -40px 20px rgba(0, 0, 0, 0.4);
   }
 }
@@ -646,6 +646,7 @@ h3 {
   width: 100%;
   left: 0;
   left: 0%;
+  height: 100%;
 }
 
 .slider__images {
